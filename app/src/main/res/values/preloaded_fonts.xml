@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/archivo_italic</item>
+        <item>@font/baloo_bhai_2</item>
+        <item>@font/baloo_bhai_2_extrabold</item>
+        <item>@font/baloo_bhai_2_semibold</item>
+        <item>@font/be_vietnam_light_italic</item>
+        <item>@font/be_vietnam_thin_italic</item>
+    </array>
+</resources>
