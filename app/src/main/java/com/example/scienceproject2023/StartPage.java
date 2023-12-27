@@ -4,10 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class StartPage extends AppCompatActivity {
 
-    public void LaunchHomeScreen() {
+    public void LaunchHomeScreen(View V) {
         Intent homeScreen = new Intent(this, MainActivity.class);
         startActivity(homeScreen);
     }
@@ -17,5 +18,7 @@ public class StartPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_page);
+
+
     }
 }
